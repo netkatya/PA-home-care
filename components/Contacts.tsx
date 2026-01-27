@@ -1,17 +1,16 @@
 import { Phone, Mail, Facebook, Clock, MapPin } from "lucide-react";
+import SectionTitle from "./SectionTitle";
 
 export default function Contacts() {
   return (
     <section
-      className="py-28 bg-linear-to-b from-(--light-green) to-background"
+      className="py-20 bg-linear-to-b from-(--light-green) to-background"
       id="contacts"
     >
       <div className="container max-w-6xl mx-auto">
         {/* Title */}
         <div className="max-w-3xl mb-10">
-          <h2 className="text-4xl md:text-5xl font-semibold mb-6">
-            Get in Touch
-          </h2>
+          <SectionTitle>Get in Touch</SectionTitle>
           <p className="text-lg md:text-xl leading-relaxed">
             We’re happy to answer questions and discuss how we can support you
             or your loved ones.
@@ -39,7 +38,7 @@ export default function Contacts() {
                   <div className="flex gap-1 items-baseline">
                     <a
                       href="tel:+447787996069"
-                      className="block text-2xl font-medium text-(--purple) hover:underline"
+                      className="block text-lg md:text-xl font-medium text-(--purple) hover:underline"
                     >
                       +44 7787 996 069
                     </a>
@@ -48,7 +47,7 @@ export default function Contacts() {
                   <div className="flex gap-1 items-baseline">
                     <a
                       href="tel:+447395077653"
-                      className="block text-2xl font-medium text-(--purple) hover:underline"
+                      className="block text-lg md:text-xl font-medium text-(--purple) hover:underline"
                     >
                       +44 7395 077 653
                     </a>
@@ -59,13 +58,13 @@ export default function Contacts() {
 
               {/* Email */}
               <div className="flex items-center gap-5">
-                <div className="w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center">
+                <div className="min-w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center">
                   <Mail className="text-emerald-700" />
                 </div>
                 <div>
                   <a
                     href="mailto:info@pahomecareservices.co.uk"
-                    className="text-2xl font-medium text-(--purple) hover:underline"
+                    className="text-lg md:text-xl font-medium text-(--purple) hover:underline break-all"
                   >
                     p.ahomecareservices@outlook.com
                   </a>
@@ -81,7 +80,7 @@ export default function Contacts() {
                   <a
                     href="https://www.facebook.com/share/1Zy8aNRjae/?mibextid=wwXIfr"
                     target="_blank"
-                    className="text-2xl font-medium text-(--purple) hover:underline"
+                    className="text-lg md:text-xl font-medium text-(--purple) hover:underline"
                   >
                     Visit us on Facebook
                   </a>
