@@ -3,7 +3,10 @@ import SectionTitle from "./SectionTitle";
 
 export default function FreeConsultation() {
   return (
-    <section className="py-20 bg-(--light-green)" id="free">
+    <section
+      className="py-20 bg-linear-to-b from-(--light-green) to-background"
+      id="free"
+    >
       <div className="container">
         {/* Title */}
         <div className=" mb-14">
@@ -24,21 +27,21 @@ export default function FreeConsultation() {
 
             <ul className="space-y-4">
               <li className="flex gap-3">
-                <span className="text-emerald-700 font-bold">✓</span>
+                <span className="text-(--emerald) font-bold">✓</span>
                 <span className="text-lg leading-relaxed">
                   Getting to know the individual receiving care
                 </span>
               </li>
 
               <li className="flex gap-3">
-                <span className="text-emerald-700 font-bold">✓</span>
+                <span className="text-(--emerald) font-bold">✓</span>
                 <span className="text-lg leading-relaxed">
                   Discussing daily routines, preferences and wishes
                 </span>
               </li>
 
               <li className="flex gap-3">
-                <span className="text-emerald-700 font-bold">✓</span>
+                <span className="text-(--emerald) font-bold">✓</span>
                 <span className="text-lg leading-relaxed">
                   Assessing care needs, including personal care and medication
                   support
@@ -46,7 +49,7 @@ export default function FreeConsultation() {
               </li>
 
               <li className="flex gap-3">
-                <span className="text-emerald-700 font-bold">✓</span>
+                <span className="text-(--emerald) font-bold">✓</span>
                 <span className="text-lg leading-relaxed">
                   Understanding the home environment and any health
                   considerations
@@ -54,7 +57,7 @@ export default function FreeConsultation() {
               </li>
 
               <li className="flex gap-3">
-                <span className="text-emerald-700 font-bold">✓</span>
+                <span className="text-(--emerald) font-bold">✓</span>
                 <span className="text-lg leading-relaxed">
                   Explaining our services and answering any questions
                 </span>
@@ -63,7 +66,7 @@ export default function FreeConsultation() {
           </div>
 
           {/* What happens next */}
-          <div className="bg-background rounded-3xl p-10 md:p-12 shadow-xl">
+          <div className="bg-background rounded-3xl p-10 md:p-12 shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
             <h3 className="text-2xl font-semibold mb-4">What happens next</h3>
 
             <p className="text-lg md:text-xl mb-4">
@@ -87,11 +90,11 @@ export default function FreeConsultation() {
             className="
               inline-flex items-center justify-center
               px-8 py-4
-              bg-emerald-700 border border-emerald-700
+              bg-(--emerald) border border-(--emerald)
               hover:bg-background
               transition-colors duration-300
               rounded-3xl
-              text-background hover:text-emerald-700
+              text-background hover:text-(--emerald)
               text-xl font-medium
               shadow-xl hover:shadow-2xl
             "

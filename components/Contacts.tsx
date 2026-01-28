@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 export default function Contacts() {
   return (
     <section
-      className="py-20 bg-linear-to-b from-(--light-green) to-background"
+      className="py-20 bg-linear-to-b from-background to-(--light-green)"
       id="contacts"
     >
       <div className="container max-w-6xl mx-auto">
@@ -32,10 +32,10 @@ export default function Contacts() {
               {/* Phones */}
               <div className="flex items-center gap-5">
                 <div className="w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center">
-                  <Phone className="text-emerald-700" />
+                  <Phone className="text-(--emerald)" />
                 </div>
                 <div>
-                  <div className="flex gap-1 items-baseline">
+                  <div className="flex flex-wrap gap-1 items-baseline">
                     <a
                       href="tel:+447787996069"
                       className="block text-lg md:text-xl font-medium text-(--purple) hover:underline"
@@ -44,7 +44,7 @@ export default function Contacts() {
                     </a>
                     <p className="text-lg tracking-wide mb-1">- Roz</p>
                   </div>
-                  <div className="flex gap-1 items-baseline">
+                  <div className="flex flex-wrap gap-1 items-baseline">
                     <a
                       href="tel:+447395077653"
                       className="block text-lg md:text-xl font-medium text-(--purple) hover:underline"
@@ -59,7 +59,7 @@ export default function Contacts() {
               {/* Email */}
               <div className="flex items-center gap-5">
                 <div className="min-w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center">
-                  <Mail className="text-emerald-700" />
+                  <Mail className="text-(--emerald)" />
                 </div>
                 <div>
                   <a
@@ -74,7 +74,7 @@ export default function Contacts() {
               {/* Facebook */}
               <div className="flex items-center gap-5">
                 <div className="w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center">
-                  <Facebook className="text-emerald-700" />
+                  <Facebook className="text-(--emerald)" />
                 </div>
                 <div>
                   <a
@@ -99,15 +99,15 @@ export default function Contacts() {
           "
           >
             <div className="flex items-center gap-4 mb-8">
-              <MapPin className="text-emerald-700 mt-1" />
+              <MapPin className="text-(--emerald) mt-1" />
               <div>
                 <h3 className="text-xl font-semibold mb-1">Our area</h3>
-                <p className="text-lg">Based in Sheffield</p>
+                <p className="text-lg">Sheffield</p>
               </div>
             </div>
 
             <div className="flex items-center gap-4 mb-10">
-              <Clock className="text-emerald-700 mt-1" />
+              <Clock className="text-(--emerald) mt-1" />
               <div>
                 <h3 className="text-xl font-semibold mb-1">Working hours</h3>
                 <p className="text-lg">7:00 – 22:00, every day</p>

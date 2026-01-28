@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import CallButton from "@/components/CallButton";
 import Contacts from "@/components/Contacts";
 import FreeConsultation from "@/components/FreeConsultation";
 import Hero from "@/components/Hero";
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <FreeConsultation />
       <Contacts />
+      <CallButton />
     </main>
   );
 }
