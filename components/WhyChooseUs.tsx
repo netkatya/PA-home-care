@@ -20,7 +20,7 @@ export default function WhyChooseUs() {
 
         {/* Item 1 */}
         <div className="flex flex-col-reverse md:flex-row gap-10 items-center mb-16 max-w-5xl mx-auto">
-          <div className="relative w-full max-w-[360px] h-[240px] rounded-3xl overflow-hidden">
+          <div className="relative w-full max-w-90 h-60 rounded-3xl overflow-hidden">
             <Image
               src="/img/why/why-three.jpg"
               alt="Experience you can trust"
@@ -56,7 +56,7 @@ export default function WhyChooseUs() {
             </p>
           </div>
 
-          <div className="relative w-full max-w-[360px] h-[240px] rounded-3xl overflow-hidden">
+          <div className="relative w-full max-w-90 h-60 rounded-3xl overflow-hidden">
             <Image
               src="/img/why/why-five.jpg"
               alt="Transparent and flexible care"
@@ -68,7 +68,7 @@ export default function WhyChooseUs() {
 
         {/* Item 3 */}
         <div className="flex flex-col-reverse md:flex-row gap-10 items-center mb-16 max-w-5xl mx-auto">
-          <div className="relative w-full max-w-[360px] h-[240px] rounded-3xl overflow-hidden">
+          <div className="relative w-full max-w-90 h-60 rounded-3xl overflow-hidden">
             <Image
               src="/img/why/why-two.jpg"
               alt="Safety and professionalism"
@@ -104,7 +104,7 @@ export default function WhyChooseUs() {
             </p>
           </div>
 
-          <div className="relative w-full max-w-[360px] h-[240px] rounded-3xl overflow-hidden">
+          <div className="relative w-full max-w-90 h-60 rounded-3xl overflow-hidden">
             <Image
               src="/img/why/why-four.jpg"
               alt="Care with compassion and respect"

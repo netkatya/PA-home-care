@@ -8,7 +8,7 @@ export default function About() {
         <div className="min-w-[50%]">
           <ul className="flex gap-4 md:gap-8 justify-center">
             <li className="bg-(--purple) rounded-3xl p-4 w-full max-w-90 shadow-[0_8px_20px_rgba(90,45,111,0.75)]">
-              <span>
+              <div className="h-85 md:h-100 xl:h-85 overflow-hidden rounded-3xl mb-3">
                 <Image
                   src="/img/about/Mark.jpg"
                   alt="Carer's photo"
@@ -16,26 +16,26 @@ export default function About() {
                   height={100}
                   className="rounded-3xl w-full pb-3 "
                 ></Image>
-              </span>
+              </div>
 
-              <p className="text-background mb-3">Mark</p>
+              <p className="text-background mb-3">Mark Foster</p>
               <p className="text-background italic ">
                 “We believe that everyone deserves to feel safe, respected and
                 cared for in their own home.”
               </p>
             </li>
             <li className="bg-(--purple) rounded-3xl p-4 w-full max-w-90 shadow-[0_8px_20px_rgba(90,45,111,0.75)]">
-              <span>
+              <div className="h-85 md:h-100 xl:h-85 overflow-hidden rounded-3xl mb-3">
                 <Image
-                  src="/img/about/Roz.jpg"
+                  src="/img/about/roz.png"
                   alt="carer's photo"
                   width={80}
                   height={100}
-                  className="rounded-3xl w-full pb-3"
+                  className=" w-full "
                 ></Image>
-              </span>
+              </div>
 
-              <p className="text-background mb-3">Roz</p>
+              <p className="text-background mb-3">Roz Hasa</p>
               <p className="text-background italic ">
                 “For us, care is personal — it’s about building relationships,
                 not just providing services.”

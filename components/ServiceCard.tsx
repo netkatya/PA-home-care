@@ -1,6 +1,12 @@
 import Image from "next/image";
 
-export default function ServiceCard({ title, src, text }) {
+export type ServiceProps = {
+  title: string;
+  src: string;
+  text: string;
+};
+
+export default function ServiceCard({ title, src, text }: ServiceProps) {
   return (
     <div
       className="

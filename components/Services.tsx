@@ -5,11 +5,9 @@ import { services } from "@/constants/services";
 export default function Services() {
   return (
     <section
-      className="pb-20 bg-linear-to-b from-(--lavander) to-background"
+      className="py-20 bg-linear-to-b from-(--lavander) to-background"
       id="services"
     >
-      <div className="bg-white w-full h-0.5 mb-20"></div>
-
       <div className="container">
         <SectionTitle>Our Services</SectionTitle>
 

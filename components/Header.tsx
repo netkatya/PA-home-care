@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Menu, X, Phone, Mail, Facebook } from "lucide-react";
+import { MobileNavLink, NavLink } from "./NavLink";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -34,8 +35,8 @@ export default function Header() {
 
             {/* Desktop nav */}
             <nav className="hidden lg:flex gap-8 ml-auto">
-              <NavLink href="#about">About</NavLink>
               <NavLink href="#services">Services</NavLink>
+              <NavLink href="#about">About</NavLink>
               <NavLink href="#free">Free Consultation</NavLink>
               <NavLink href="#contacts">Contacts</NavLink>
             </nav>
@@ -124,48 +125,25 @@ export default function Header() {
               ${open ? "opacity-100" : "opacity-0"}
             `}
           >
-            <a href="tel:+441234567890" aria-label="Phone">
+            <Link href="tel:+441234567890" aria-label="Phone">
               <Phone size={26} />
-            </a>
-            <a href="mailto:info@pahomecareservices.co.uk" aria-label="Email">
+            </Link>
+            <Link
+              href="mailto:info@pahomecareservices.co.uk"
+              aria-label="Email"
+            >
               <Mail size={26} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.facebook.com/"
               target="_blank"
               aria-label="Facebook"
             >
               <Facebook size={26} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
     </>
-  );
-}
-
-/* Helpers */
-
-function NavLink({ href, children }) {
-  return (
-    <Link
-      href={href}
-      className="
-        text-background text-lg relative
-        after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0
-        after:bg-(--lavander)
-        hover:after:w-full after:transition-all
-      "
-    >
-      {children}
-    </Link>
-  );
-}
-
-function MobileNavLink({ href, children, onClick }) {
-  return (
-    <Link href={href} onClick={onClick} className="font-medium">
-      {children}
-    </Link>
   );
 }

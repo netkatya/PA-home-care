@@ -31,7 +31,7 @@ export default function Contacts() {
             <div className="space-y-10">
               {/* Phones */}
               <div className="flex items-center gap-5">
-                <div className="w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center">
+                <div className="w-11 h-11 rounded-full bg-(--light-emerald) flex items-center justify-center">
                   <Phone className="text-(--emerald)" />
                 </div>
                 <div>
@@ -58,7 +58,7 @@ export default function Contacts() {
 
               {/* Email */}
               <div className="flex items-center gap-5">
-                <div className="min-w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center">
+                <div className="min-w-11 h-11 rounded-full bg-(--light-emerald) flex items-center justify-center">
                   <Mail className="text-(--emerald)" />
                 </div>
                 <div>
@@ -73,7 +73,7 @@ export default function Contacts() {
 
               {/* Facebook */}
               <div className="flex items-center gap-5">
-                <div className="w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center">
+                <div className="w-11 h-11 rounded-full bg-(--light-emerald) flex items-center justify-center">
                   <Facebook className="text-(--emerald)" />
                 </div>
                 <div>
@@ -102,7 +102,7 @@ export default function Contacts() {
               <MapPin className="text-(--emerald) mt-1" />
               <div>
                 <h3 className="text-xl font-semibold mb-1">Our area</h3>
-                <p className="text-lg">Sheffield</p>
+                <p className="text-lg">Sheffield - S2, S7, S8, S10, S11, S14</p>
               </div>
             </div>
 
@@ -110,7 +110,7 @@ export default function Contacts() {
               <Clock className="text-(--emerald) mt-1" />
               <div>
                 <h3 className="text-xl font-semibold mb-1">Working hours</h3>
-                <p className="text-lg">7:00 – 22:00, every day</p>
+                <p className="text-lg">6:15 – 22:00, every day</p>
               </div>
             </div>
 
