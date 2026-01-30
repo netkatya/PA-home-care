@@ -3,8 +3,8 @@ import SectionTitle from "./SectionTitle";
 
 export default function About() {
   return (
-    <section className="py-20" id="about">
-      <div className="container flex flex-col xl:flex-row gap-10">
+    <section className="py-10" id="about">
+      <div className="container flex flex-col-reverse xl:flex-row gap-10">
         <div className="min-w-[50%]">
           <ul className="flex gap-4 md:gap-8 justify-center">
             <li className="bg-(--purple) rounded-3xl p-4 w-full max-w-90 shadow-[0_8px_20px_rgba(90,45,111,0.75)]">

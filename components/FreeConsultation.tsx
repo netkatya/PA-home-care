@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 export default function FreeConsultation() {
   return (
     <section
-      className="py-20 bg-linear-to-b from-(--light-green) to-background"
+      className="pt-20 pb-10 bg-linear-to-b from-(--light-green) to-background"
       id="free"
     >
       <div className="container">

@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 export default function WhyChooseUs() {
   return (
     <section
-      className="py-20 bg-linear-to-b from-background to-(--lavander)"
+      className="py-10 bg-linear-to-b from-background to-(--lavander)"
       id="why"
     >
       <div className="container">

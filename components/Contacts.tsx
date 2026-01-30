@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 export default function Contacts() {
   return (
     <section
-      className="py-20 bg-linear-to-b from-background to-(--light-green)"
+      className="pt-10 pb-20 bg-linear-to-b from-background to-(--light-green)"
       id="contacts"
     >
       <div className="container max-w-6xl mx-auto">
