@@ -15,7 +15,7 @@ export default function Footer() {
             className="w-36 h-36 overflow-hidden flex items-center gap-2 "
           >
             <Image
-              src="/img/logo.png"
+              src="/img/logo1.png"
               alt="P.A. Home Care Services logo"
               width={160}
               height={140}
