@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_GB",
     // url: "https://www.pahomecareservices.co.uk",
-    url: "https://pa-home-care.vercel.app/",
+    url: "https://pa-home-care.vercel.app",
     title: "P.A. Home Care Services | Professional Home Care in Sheffield",
     description:
       "Professional, person-centred home care in Sheffield. Supporting independence, dignity and wellbeing at home.",
