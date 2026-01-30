@@ -27,11 +27,11 @@ export default function About() {
             <li className="bg-(--purple) rounded-3xl p-4 w-full max-w-90 shadow-[0_8px_20px_rgba(90,45,111,0.75)]">
               <div className=" overflow-hidden rounded-3xl mb-3">
                 <Image
-                  src="/img/about/roz1.png"
+                  src="/img/about/roz.jpg"
                   alt="carer's photo"
                   width={80}
                   height={100}
-                  className=" w-full w-full brightness-[0.95] saturate-[0.9]"
+                  className=" w-full brightness-[0.95] saturate-[0.9]"
                 ></Image>
               </div>
 
