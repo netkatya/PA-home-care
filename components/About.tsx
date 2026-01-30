@@ -8,13 +8,13 @@ export default function About() {
         <div className="min-w-[50%]">
           <ul className="flex gap-4 md:gap-8 justify-center">
             <li className="bg-(--purple) rounded-3xl p-4 w-full max-w-90 shadow-[0_8px_20px_rgba(90,45,111,0.75)]">
-              <div className="h-85 md:h-100 xl:h-85 overflow-hidden rounded-3xl mb-3">
+              <div className=" overflow-hidden rounded-3xl mb-3">
                 <Image
-                  src="/img/about/Mark.jpg"
+                  src="/img/about/mark.png"
                   alt="Carer's photo"
                   width={80}
                   height={100}
-                  className="rounded-3xl w-full pb-3 "
+                  className="w-full brightness-[0.95] saturate-[0.9]"
                 ></Image>
               </div>
 
@@ -25,13 +25,13 @@ export default function About() {
               </p>
             </li>
             <li className="bg-(--purple) rounded-3xl p-4 w-full max-w-90 shadow-[0_8px_20px_rgba(90,45,111,0.75)]">
-              <div className="h-85 md:h-100 xl:h-85 overflow-hidden rounded-3xl mb-3">
+              <div className=" overflow-hidden rounded-3xl mb-3">
                 <Image
-                  src="/img/about/roz.png"
+                  src="/img/about/roz1.png"
                   alt="carer's photo"
                   width={80}
                   height={100}
-                  className=" w-full "
+                  className=" w-full w-full brightness-[0.95] saturate-[0.9]"
                 ></Image>
               </div>
 

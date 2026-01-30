@@ -16,7 +16,7 @@ export default function Footer() {
           >
             <Image
               src="/img/logo.png"
-              alt="logo"
+              alt="P.A. Home Care Services logo"
               width={160}
               height={140}
             ></Image>
@@ -39,23 +39,24 @@ export default function Footer() {
         >
           <Link
             href="tel:+441234567890"
-            aria-label="Phone"
-            className="hover:text-(--lavander) transition duration-300"
+            aria-label="Call P.A. Home Care Services"
+            className="hover:text-white/70 transition duration-300 focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-4"
           >
             <Phone size={26} />
           </Link>
           <Link
             href="mailto:info@pahomecareservices.co.uk"
-            aria-label="Email"
-            className="hover:text-(--lavander) transition duration-300"
+            aria-label="Email P.A. Home Care Services"
+            className="hover:text-white/70 transition duration-300 focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-4"
           >
             <Mail size={26} />
           </Link>
           <Link
             href="https://www.facebook.com/"
             target="_blank"
-            aria-label="Facebook"
-            className="hover:text-(--lavander) transition duration-300"
+            rel="noopener noreferrer"
+            aria-label="Visit us on Facebook (opens in new tab)"
+            className="hover:text-white/70 transition duration-300 focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-4"
           >
             <Facebook size={26} />
           </Link>

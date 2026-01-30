@@ -94,7 +94,7 @@ export default function FreeConsultation() {
               hover:bg-background
               transition-colors duration-300
               rounded-3xl
-              text-background hover:text-(--emerald)
+              text-background hover:text-(--emerald-dark)
               text-xl font-medium
               shadow-xl hover:shadow-2xl
             "

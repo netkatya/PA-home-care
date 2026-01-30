@@ -34,10 +34,14 @@ export default function WhyChooseUs() {
               Experience you can trust
             </h3>
             <p className="text-lg leading-relaxed">
-              We have over ten years of experience in home care. This experience
-              helps us understand individual needs, recognise what truly matters
-              and provide support that feels reassuring, respectful and reliable
-              from the very beginning.
+              We have over{" "}
+              <span className="text-(--emerald-dark) font-medium">
+                ten years
+              </span>{" "}
+              of experience in home care. This experience helps us understand
+              individual needs, recognise what truly matters and provide support
+              that feels reassuring, respectful and reliable from the very
+              beginning.
             </p>
           </div>
         </div>
@@ -49,10 +53,13 @@ export default function WhyChooseUs() {
               A transparent and flexible approach
             </h3>
             <p className="text-lg leading-relaxed">
-              We believe care should be clear and straightforward. After your
-              free consultation, we explain care options, visit lengths and
-              pricing in an honest and easy-to-understand way. Care packages are
-              flexible and can be adjusted as needs change over time.
+              We believe care should be clear and straightforward. After your{" "}
+              <span className="text-(--emerald-dark) font-medium">
+                free consultation
+              </span>
+              , we explain care options, visit lengths and pricing in an honest
+              and easy-to-understand way. Care packages are flexible and can be
+              adjusted as needs change over time.
             </p>
           </div>
 
@@ -83,9 +90,13 @@ export default function WhyChooseUs() {
             </h3>
             <p className="text-lg leading-relaxed">
               Care is delivered responsibly and professionally, with appropriate
-              checks in place, including DBS checks. Families can feel confident
-              knowing their loved ones are supported safely, reliably and with
-              careful attention to wellbeing.
+              checks in place, including{" "}
+              <span className="text-(--emerald-dark) font-medium">
+                DBS checks
+              </span>
+              . Families can feel confident knowing their loved ones are
+              supported safely, reliably and with careful attention to
+              wellbeing.
             </p>
           </div>
         </div>
@@ -98,9 +109,12 @@ export default function WhyChooseUs() {
             </h3>
             <p className="text-lg leading-relaxed">
               At the heart of everything we do is genuine care. We treat every
-              person with kindness, dignity and respect, supporting independence
-              while offering reassurance and understanding to both individuals
-              and their families.
+              person with{" "}
+              <span className="font-medium text-(--emerald-dark)">
+                kindness, dignity and respect
+              </span>
+              , supporting independence while offering reassurance and
+              understanding to both individuals and their families.
             </p>
           </div>
 

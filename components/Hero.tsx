@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="mt-23 hero flex items-end md:items-center max-w-full min-h-[85vh] sm:min-h-[80vh] md:min-h-[85vh]">
       <div className="container relative z-10 w-full">
         <div className="w-full md:w-1/2 flex flex-col pb-10 sm:pb-14 md:pb-0">
-          <h1 className="font-semibold text-3xl md:text-4xl lg:text-5xl leading-[125%] mb-6 md:mb-10">
+          <h1 className="font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[125%] mb-6 md:mb-10">
             Professional Home Care Services You Can Trust
           </h1>
 
@@ -25,7 +25,7 @@ export default function Hero() {
               text-lg md:text-xl font-medium
               bg-(--emerald) text-background
               border border-(--emerald)
-              hover:bg-white hover:text-(--emerald)
+              hover:bg-white hover:text-(--emerald-dark)
               transition-all duration-300
               shadow-xl hover:shadow-2xl
             "

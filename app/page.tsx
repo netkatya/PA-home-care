@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import CallButton from "@/components/CallButton";
 import Contacts from "@/components/Contacts";
 import FreeConsultation from "@/components/FreeConsultation";
 import Hero from "@/components/Hero";
@@ -8,14 +7,13 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <Services />
       <WhyChooseUs />
-      <About />
       <FreeConsultation />
+      <About />
       <Contacts />
-      <CallButton />
-    </main>
+    </>
   );
 }

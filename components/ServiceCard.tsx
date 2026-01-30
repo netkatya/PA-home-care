@@ -19,12 +19,12 @@ export default function ServiceCard({ title, src, text }: ServiceProps) {
     >
       <div className="flex items-center gap-4">
         <div className=" rounded-2xl bg-[#E6DFF0] grid place-items-center">
-          <Image src={src} alt="Service icon" width={100} height={100} />
+          <Image src={src} alt="" aria-hidden="true" width={100} height={100} />
         </div>
         <div>
-          <p className="font-semibold text-lg xl:text-xl text-(--purple) leading-snug">
+          <h3 className="font-semibold text-lg xl:text-xl text-(--purple) leading-snug">
             {title}
-          </p>
+          </h3>
           <p>{text}</p>
         </div>
       </div>
