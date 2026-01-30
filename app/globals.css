@@ -127,7 +127,7 @@ scroll-margin-top: 20px;
 /* Tablet */
 @media (max-width: 1279px) {
   .hero {
-    background-image: url("/img/hero-tab.png");
+    background-image: url("/img/hero-tab.jpg");
     background-position: center;
   }
 }
