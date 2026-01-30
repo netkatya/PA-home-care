@@ -90,7 +90,7 @@ export default function FreeConsultation() {
             className="
               inline-flex items-center justify-center
               px-8 py-4
-              bg-(--emerald) border border-(--emerald)
+              bg-(--emerald-dark) border border-(--emerald-dark)
               hover:bg-background
               transition-colors duration-300
               rounded-3xl

@@ -23,8 +23,8 @@ export default function Hero() {
               px-8 py-4
               rounded-3xl
               text-lg md:text-xl font-medium
-              bg-(--emerald) text-background
-              border border-(--emerald)
+              bg-(--emerald-dark) text-background
+              border border-(--emerald-dark)
               hover:bg-white hover:text-(--emerald-dark)
               transition-all duration-300
               shadow-xl hover:shadow-2xl
