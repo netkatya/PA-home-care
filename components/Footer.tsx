@@ -29,6 +29,7 @@ export default function Footer() {
           <NavLink href="#services">Services</NavLink>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#free">Free Consultation</NavLink>
+          <NavLink href="#reviews">Reviews</NavLink>
           <NavLink href="#contacts">Contacts</NavLink>
         </nav>
         <div

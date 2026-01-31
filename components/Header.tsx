@@ -49,8 +49,9 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden lg:flex gap-8 ml-auto">
             <NavLink href="#services">Services</NavLink>
-            <NavLink href="#about">About</NavLink>
             <NavLink href="#free">Free Consultation</NavLink>
+            <NavLink href="#about">About</NavLink>
+            <NavLink href="#reviews">Reviews</NavLink>
             <NavLink href="#contacts">Contacts</NavLink>
           </nav>
 
@@ -106,14 +107,17 @@ export default function Header() {
 
           {/* Navigation */}
           <nav className="flex flex-col items-center gap-6 text-2xl text-background mt-16">
-            <MobileNavLink href="#about" onClick={() => setOpen(false)}>
-              About
-            </MobileNavLink>
             <MobileNavLink href="#services" onClick={() => setOpen(false)}>
               Services
             </MobileNavLink>
             <MobileNavLink href="#free" onClick={() => setOpen(false)}>
               Free Consultation
+            </MobileNavLink>
+            <MobileNavLink href="#about" onClick={() => setOpen(false)}>
+              About
+            </MobileNavLink>
+            <MobileNavLink href="#reviews" onClick={() => setOpen(false)}>
+              Reviews
             </MobileNavLink>
             <MobileNavLink href="#contacts" onClick={() => setOpen(false)}>
               Contacts
