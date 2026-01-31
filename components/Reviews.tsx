@@ -8,6 +8,7 @@ import { reviews } from "@/constants/reviews";
 
 type Review = {
   initial: string;
+  name: string;
   short: string;
   full: string;
 };
@@ -40,18 +41,21 @@ function ReviewCard({ review, index }: ReviewProps) {
         >
           {review.initial}
         </div>
-        <div
-          className="flex gap-1 text-(--emerald-dark)"
-          aria-label="5 out of 5 stars"
-        >
-          {[...Array(5)].map((_, i) => (
-            <Star
-              key={i}
-              size={18}
-              className="fill-current"
-              aria-hidden="true"
-            />
-          ))}
+        <div>
+          <div
+            className="flex gap-1 text-(--emerald-dark) mb-1"
+            aria-label="5 out of 5 stars"
+          >
+            {[...Array(5)].map((_, i) => (
+              <Star
+                key={i}
+                size={18}
+                className="fill-current"
+                aria-hidden="true"
+              />
+            ))}
+          </div>
+          <p>{review.name}</p>
         </div>
       </header>
 
