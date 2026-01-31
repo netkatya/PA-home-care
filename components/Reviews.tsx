@@ -131,7 +131,7 @@ export default function Reviews() {
         {/* Google link */}
         <div className="text-center">
           <Link
-            href="https://share.google/ElnHkxEeaUlSE1MVD"
+            href="https://www.google.com/search?client=safari&hs=rbGp&sca_esv=37b29cacd6547f1e&hl=en-gb&sxsrf=ANbL-n7AFeHZXVgm5Y2mLjPEm2GtAfusVA:1769879971895&kgmid=/g/11wbtgwh_3&q=P.A.+homecare+services&shem=bdsle,ptotple,shrtsdl&shndl=30&source=sh/x/loc/act/m1/3&kgs=13e2b7779ed41d30&utm_source=bdsle,ptotple,shrtsdl,sh/x/loc/act/m1/3#cobssid=s"
             target="_blank"
             className="inline-block text-lg md:text-xl text-(--purple) hover:underline transition-all duration-300"
           >
