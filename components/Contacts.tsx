@@ -64,7 +64,7 @@ export default function Contacts() {
                 </div>
                 <div>
                   <a
-                    href="mailto:info@pahomecareservices.co.uk"
+                    href="mailto:p.ahomecareservices@outlook.com"
                     className="text-lg md:text-xl font-medium text-(--purple) hover:underline break-all"
                   >
                     p.ahomecareservices@outlook.com

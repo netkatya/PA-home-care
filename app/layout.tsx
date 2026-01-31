@@ -34,25 +34,24 @@ export const metadata: Metadata = {
   creator: "P.A. Home Care Services",
   publisher: "P.A. Home Care Services",
 
-  metadataBase: new URL("https://www.pahomecareservices.co.uk"),
+  metadataBase: new URL("https://pahomecareservice.co.uk"),
 
   alternates: {
-    canonical: "https://www.pahomecareservices.co.uk",
+    canonical: "https://pahomecareservice.co.uk",
   },
 
   openGraph: {
     type: "website",
     locale: "en_GB",
-    // url: "https://www.pahomecareservices.co.uk",
-    url: "https://pa-home-care.vercel.app",
+    url: "https://pahomecareservice.co.uk",
     title: "P.A. Home Care Services | Professional Home Care in Sheffield",
     description:
       "Professional, person-centred home care in Sheffield. Supporting independence, dignity and wellbeing at home.",
     siteName: "P.A. Home Care Services",
     images: [
       {
-        // url: "https://www.pahomecareservices.co.uk/img/og-image.png",
-        url: "https://pa-home-care.vercel.app/img/og-image.png",
+        url: "https://pahomecareservice.co.uk/img/og-image.png",
+
         width: 1200,
         height: 630,
         alt: "P.A. Home Care Services – professional home care in Sheffield",
@@ -65,8 +64,7 @@ export const metadata: Metadata = {
     title: "P.A. Home Care Services | Home Care in Sheffield",
     description:
       "Professional, person-centred home care services in Sheffield. Free consultation available.",
-    // images: ["www.pahomecareservices.co.uk/img/og-image.png"],
-    images: ["https://pa-home-care.vercel.app/img/og-image.png"],
+    images: ["https://pahomecareservice.co.uk/img/og-image.png"],
   },
 
   robots: {

@@ -123,7 +123,7 @@ export default function Header() {
           {/* Contact icons */}
           <div className="mt-auto mb-10 flex justify-center gap-10 text-background">
             <Link
-              href="tel:+441234567890"
+              href="tel:+447787996069"
               aria-label="Call P.A. Home Care Services"
               className="focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-4"
             >
@@ -131,7 +131,7 @@ export default function Header() {
             </Link>
 
             <Link
-              href="mailto:info@pahomecareservices.co.uk"
+              href="mailto:p.ahomecareservices@outlook.com"
               aria-label="Email P.A. Home Care Services"
               className="focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-4"
             >
@@ -139,7 +139,7 @@ export default function Header() {
             </Link>
 
             <Link
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/share/1Zy8aNRjae/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visit us on Facebook (opens in new tab)"
