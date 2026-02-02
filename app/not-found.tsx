@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <section
-      className="
+      className="pt-24
         min-h-[80vh]
         flex items-center justify-center
         bg-linear-to-b from-(--lavander) to-background
