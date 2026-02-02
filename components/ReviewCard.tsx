@@ -41,6 +41,7 @@ export default function ReviewCard({ review, index }: ReviewProps) {
         <div>
           <div
             className="flex gap-1 text-(--emerald-dark) mb-1"
+            role="img"
             aria-label="5 out of 5 stars"
           >
             {[...Array(5)].map((_, i) => (
