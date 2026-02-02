@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="h-px bg-background my-6"></div>
-      <div className="flex items-center justify-center gap-8">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <p className="text-background">
           &copy; {currentYear} P.A. Home Care Services
         </p>

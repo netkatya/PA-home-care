@@ -124,7 +124,7 @@ export default function Contacts() {
             rounded-[30px]
             bg-linear-to-b from-[#F3FAF6] to-white
             p-10 md:p-14
-            shadow-[0_20px_50px_rgba(0,0,0,0.12)] max-w-150 m-auto
+            shadow-[0_20px_50px_rgba(0,0,0,0.12)] max-w-full lg:max-w-150 m-auto
           "
         >
           <div className="flex flex-col items-center gap-4">
